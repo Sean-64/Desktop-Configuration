@@ -22,6 +22,6 @@ cp dots/settings.json ~/.config/Code/User/config.json # -- VSCode dot-files
 cp -R dots/alacritty ~/.config # -- Alacritty dot-files
 
 cp dots/.zshrc ~ # -- ZSH dot-files
-cp dots/.oh-my-zsh # OMZ dot-files
+cp dots/.oh-my-zsh ~ # OMZ dot-files
 
 cp -R dots/nvim ~/.config # -- NEOVim dot-files
