@@ -1,4 +1,4 @@
-pacman -Sy git base-devel vim neovim alacritty zsh lolcat
+sudo pacman -Sy git base-devel vim neovim alacritty zsh lolcat
 git clone https://AUR.archlinux.org/visual-studio-code-bin.git
 cd visual-studio-code-bin/
 makepkg -s
