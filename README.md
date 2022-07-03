@@ -11,7 +11,7 @@ We are going to overview my desktop and software configurations point by point s
 
 [**Kde-Plasma**](https://kde.org/fr/plasma-desktop/) as always been one of the most used desktop environements over the years.
 
-But there's a reason for this ! It is highly customizable and can make a pretty powerfull ecosystem with Airdrop like functionalities and more.
+But there's a reason for that ! It is highly customizable and can make a pretty powerfull ecosystem with Airdrop like functionalities and more.
 
 So we are first going to install kde-plasma if it's not already done
 
@@ -87,11 +87,11 @@ We need to get and apply new scripts to make our lives easier in _Setting > Wind
 
 ### Login
 
-The login is the first step you'll encounter when starting your PC
+The login is the first step you'll encounter when starting your PC<br/>
 So it needs to be welcoming as mush as possible
 
 Go to _Settings > Startup and Shutdown > Login Screen (SDDM)_,
-I personally downloaded a SDDM themes called **Vimix**
+I personally downloaded an SDDM theme called **Vimix**
 
 You can even change the background
 
@@ -110,9 +110,9 @@ So go into _Settings > Input Devices > Thouchpad_ and apply the following settin
 Now it should be smoother ;)
 
 ### Top panel
- To get started right click on you desktop and create a new empty panel : _+ Add Panel > Empty Panel_
+ To get started right click on your desktop and create a new empty panel : _+ Add Panel > Empty Panel_
 
- Your job now is going to trnasform this panel by adding widget and make it look like this
+ Your job now is going to transform this panel by adding widget and make it look like this
 
  ![Screenshot-20220703-125503.png](https://i.postimg.cc/6QCCLwpY/Screenshot-20220703-125503.png)
 
@@ -162,7 +162,7 @@ yay -S nerd-fonts-fira-code
 
 ![Screenshot-20220703-132807.png](https://i.postimg.cc/Twb6k7Dd/Screenshot-20220703-132807.png)
 
-Now that we are done with the desktop lets get ourselves one the most important part for a real linux user, **THE TERMINAL !**
+Now that we are done with the desktop lets get ourselves on the most important part for a real linux user, **THE TERMINAL !**
 
 My favourite terminal emulator is called [**Alacritty**](https://alacritty.org/), so if it's not already installed :
 
@@ -170,7 +170,7 @@ My favourite terminal emulator is called [**Alacritty**](https://alacritty.org/)
 pacman -S alacritty
 ```
 
-Here come my dot-files !<br/>
+Here comes my dot-files !<br/>
 Just copy the _alacrity_ directory in my dots and put it into your _.config_
 
 ```
@@ -224,7 +224,7 @@ cp -R ./dots/.oh-my-zsh ~
 ![Screenshot-20220703-170535.png](https://i.postimg.cc/g22PNd8Y/Screenshot-20220703-170535.png)
 A lot of people uses [Nano](https://www.nano-editor.org/) or [Vim](https://www.vim.org/) as there main terminal editor
 
-I personally use [**Neovim**](https://neovim.io/) that as the advantges of sharing the same keybinds as Vim but with more capabilities due to the number of plugins that we can add.
+I personally use [**Neovim**](https://neovim.io/) that as the advantages of sharing the same keybinds as Vim but with more capabilities due to the number of plugins that we can add.
 
 Well let's install it !
 
