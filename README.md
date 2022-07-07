@@ -184,7 +184,7 @@ We now have a nice terminal emulator but our shell is kind off basic (Bash is no
 So let's get a new one much more modern and customizable called [**ZSH**](https://www.zsh.org/)
 
 ```
-pacman zsh lolcat neofetch
+pacman -S zsh lolcat neofetch
 ```
 
 _We need to make it our default shell_
